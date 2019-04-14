@@ -15,7 +15,7 @@ valid_image_extensions = [".jpg", ".jpeg", ".png"]
 valid_image_extensions = [item.lower() for item in valid_image_extensions]
 
 
-def test():
+def ImageClassificationMatcher():
     for file in os.listdir(imageDir):
         extension = os.path.splitext(file)[1]
         if extension.lower() not in valid_image_extensions:
@@ -56,7 +56,7 @@ while True:
         cv2.circle(img, (x, y), 2, (0, 0, 255))
 
     # Displaying the result
-    # var = test()
+    # resultImage = ImageClassificationMatcher()
     # cv2.imshow("Image",var)
 
     # Display colour image with detected features
