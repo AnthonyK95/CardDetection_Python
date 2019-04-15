@@ -9,9 +9,9 @@ import threading
 
 # Create object to read images from camera 0
 cam = cv2.VideoCapture(0)
-cam.set(cv2.CAP_PROP_FPS, 50)
+cam.set(cv2.CAP_PROP_FPS, 10)
 # Initialize ORB object
-orb = cv2.ORB_create(nfeatures=2000)
+orb = cv2.ORB_create(nfeatures=100)
 
 imageDir = "images/"
 image_path_list = []
@@ -45,25 +45,10 @@ valid_image_extensions = [item.lower() for item in valid_image_extensions]
 #             print("Error loading" + imagepath)
 #             continue
 #
+# Displaying the data of the images
+npArray = []
 
-
-
-while True:
-    # Get image from webcam and convert to greyscale
-
-    ret, img = cam.read()
-    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-
-    # Detect keypoints and descriptors in greyscale image
-    keypoints, descriptors = orb.detectAndCompute(img, None)
-
-    # Draw a small red circle with the desired radius
-    # at the (x, y) location for each feature found
-    for kp in keypoints:
-        x = int(kp.pt[0])
-        y = int(kp.pt[1])
-        cv2.circle(img, (x, y), 2, (0, 0, 255))
-
+def computeImageDescriptors():
     for file in os.listdir(imageDir):
         extension = os.path.splitext(file)[1]
         if extension.lower() not in valid_image_extensions:
@@ -72,9 +57,35 @@ while True:
     for imagepath in image_path_list:
         # Displaying all the images with key Descriptor
         image = cv2.imread(imagepath, 0)
-        kp1, des1 = orb.detectAndCompute(image, None)
-        if image is not None:
-            keypointsImage = cv2.drawKeypoints(image, kp1, None, color=(0, 255, 0), flags=0)
+        npArray.append(orb.detectAndCompute(image, None))
+
+
+
+while True:
+    # Get image from web cam and convert to greyscale
+
+    ret, img = cam.read()
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+    computeImageDescriptors()
+    # Detect keypoints and descriptors in greyscale image
+    keypoints, descriptors = orb.detectAndCompute(img, None)
+    # Draw a small red circle with the desired radius
+    # at the (x, y) location for each feature found
+    for kp in keypoints:
+        x = int(kp.pt[0])
+        y = int(kp.pt[1])
+        cv2.circle(img, (x, y), 2, (0, 0, 255))
+
+    # print(npArray)
+
+
+
+
+
+        # kp1, des1 = orb.detectAndCompute(image, None)
+        # if image is not None:
+        #     keypointsImage = cv2.drawKeypoints(image, kp1, None, color=(0, 255, 0), flags=0)
 
 
 
