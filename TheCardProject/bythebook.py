@@ -48,9 +48,14 @@ if __name__ == "__main__":
 
     while True:
     
-        ret,frame = camera.read()
-        gray = cv2.cvtColor()
+        ret, frame = camera.read()
+        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
+        kp1, des1 = orb.detectAndCompute(gray, None)
+        keypointsImage = cv2.drawKeypoints(gray, kp1, None, color=(0, 255, 0), flags=0)
+
+        
+        cv2.imshow("Frame",keypointsImage)    
 
         # Exiting the Program
         if cv2.waitKey(1) & 0xFF == ord('q'):
