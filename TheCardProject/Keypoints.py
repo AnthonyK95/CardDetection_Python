@@ -1,11 +1,11 @@
 import numpy as np
 import cv2
-from matplotlib import pyplot as plt
+# from matplotlib import pyplot as plt
 
 yolo = []
 while True:
 
-    img1 = cv2.imread('./images/two.png', 0)
+    img1 = cv2.imread('./images/brain.png', 0)
 
     # Initiate ORB Detector => With algorithm and scoreType
     orb = cv2.ORB_create(nfeatures=2000, scoreType=cv2.ORB_FAST_SCORE)
