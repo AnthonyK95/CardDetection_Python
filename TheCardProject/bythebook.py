@@ -34,13 +34,13 @@ def something():
             cv2.imshow(imagepath, keypointsImage)
 
         elif image is None:
-            print("Error loading" + imagepath)
+            print("Error on path loading" + imagepath)
 
     return kp1,des1
            
-# Getting the values of the images 
-def KeypointMatching():
-    print("hello")
+# Searching live for keypoint matching
+def KeypointMatching(kep,des):
+    print(kep,des)
 
 if __name__ == "__main__":
     #Running once to find the keypoints
@@ -54,7 +54,8 @@ if __name__ == "__main__":
         kp1, des1 = orb.detectAndCompute(gray, None)
         keypointsImage = cv2.drawKeypoints(gray, kp1, None, color=(0, 255, 0), flags=0)
 
-        
+        KeypointMatching(kp1,des1)
+
         cv2.imshow("Frame",keypointsImage)    
 
         # Exiting the Program
