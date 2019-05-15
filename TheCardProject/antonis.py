@@ -52,7 +52,7 @@ def yolo(original):
 while True:
     _,frame = camera.read()
     original = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    cv2.imshow("a",original)
+    cv2.imshow("Card Reader",original)
     yolo(original)
     if cv2.waitKey(1) & 0xFF == ord('q'):
             break
