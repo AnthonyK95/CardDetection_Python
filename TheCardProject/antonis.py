@@ -1,3 +1,5 @@
+# This is the main file
+
 import cv2
 import numpy as np
 import glob
