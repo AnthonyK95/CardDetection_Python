@@ -9,7 +9,7 @@ import base64
 
 # Define the folder and global variables
 # orb = cv2.ORB_create(nfeatures=2000)
-directory = "./images/"
+directory = "\images/"
 image_path_list = []
 valid_image_extensions = [".jpg", ".jpeg", ".png"]
 valid_image_extensions = [item.lower() for item in valid_image_extensions]
@@ -17,7 +17,7 @@ valid_image_extensions = [item.lower() for item in valid_image_extensions]
 
 
 
-camera = cv2.VideoCapture(0)
+camera = cv2.VideoCapture(1)
 
 # Mine Functions
 ImageDescriptor = []

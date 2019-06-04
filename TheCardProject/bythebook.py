@@ -8,10 +8,10 @@ image_path_list = []
 cap = cv2.VideoCapture(0)
 valid_image_extensions = [".jpg", ".jpeg", ".png"]
 valid_image_extensions = [item.lower() for item in valid_image_extensions]
-orb = cv2.ORB_create(nfeatures=2000, scoreType=cv2.ORB_FAST_SCORE)
+orb = cv2.ORB_create(nfeatures=10000, scoreType=cv2.ORB_FAST_SCORE)
 # surf = cv2.xfeatures2d.SURF_create()
 
-camera = cv2.VideoCapture(0)
+camera = cv2.VideoCapture(1)
 
 kp = []
 dsc = []
@@ -61,19 +61,17 @@ def something():
 
 def matchingPoints(des11, des2):
     bf = cv2.BFMatcher(cv2.NORM_HAMMING, crossCheck=True)
-
     matches = bf.match(des11,des2)
     matches = sorted(matches , key = lambda x:x.distance)
     good = []
     for m,n in matches:
-        if m.distance < 0.7*n.distance:
+        if m.distance >= 0.7*n.distance:
             good.append(m)
-    if len(good)>0:
-        print("yolo")
-    else:
-        print("hello")
-
-
+    # if len(good)>0:
+    #     print("yolo")
+    # else:
+    #     print("hello")
+    print(good)
 
 if __name__ == "__main__":
     # Running once to find the keypoints

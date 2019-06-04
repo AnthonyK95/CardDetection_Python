@@ -9,7 +9,7 @@ image_path_list = []
 cap = cv2.VideoCapture(0)
 valid_image_extensions = [".jpg", ".jpeg", ".png"]
 valid_image_extensions = [item.lower() for item in valid_image_extensions]
-orb = cv2.ORB_create(nfeatures=2000, scoreType=cv2.ORB_FAST_SCORE)
+orb = cv2.ORB_create(nfeatures=10000, scoreType=cv2.ORB_FAST_SCORE)
 
 
 while True:
@@ -30,6 +30,7 @@ while True:
             keypointsImage = cv2.drawKeypoints(image, kp1, None, color=(0, 255, 0), flags=0)
             cv2.imshow(imagepath, keypointsImage)
 
+        # Stoping if there is no image
         elif image is None:
             print("Error loading" + imagepath)
             continue

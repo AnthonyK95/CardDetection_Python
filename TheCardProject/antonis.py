@@ -6,13 +6,13 @@ import glob
 
 
 
-camera = cv2.VideoCapture(0)
+camera = cv2.VideoCapture(1)
 
 # original = cv2.imread("images/damn.jpg")
 # Sift and Flann
 
 def yolo(original):
-    sift = cv2.xfeatures2d.SIFT_create()
+    sift = cv2.xfeatures2d.SURF_create()
     kp_1, desc_1 = sift.detectAndCompute(original, None)
     index_params = dict(algorithm=0, trees=5)
     search_params = dict()
@@ -38,7 +38,7 @@ def yolo(original):
         matches = flann.knnMatch(desc_1, desc_2, k=2)
         good_points = []
         for m, n in matches:
-            if m.distance > 0.6*n.distance:
+            if m.distance >= 0.8*n.distance:
                 good_points.append(m)
         number_keypoints = 0
         if len(kp_1) >= len(kp_2):
@@ -53,7 +53,9 @@ while True:
     _,frame = camera.read()
     original = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     cv2.imshow("Card Reader",original)
-    yolo(original)
+    blur = cv2.GaussianBlur(original, (1, 1), 1000)
+    flag, thresh = cv2.threshold(blur, 120, 255, cv2.THRESH_BINARY)
+    yolo(thresh)
     if cv2.waitKey(1) & 0xFF == ord('q'):
             break
 
