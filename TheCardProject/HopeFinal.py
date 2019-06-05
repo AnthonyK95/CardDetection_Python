@@ -18,7 +18,7 @@ def captureImage(captured_frame):
 
 
 
-def testing():
+def cropImage():
     image = cv2.imread("image.jpg")
     gray = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
     gray = cv2.GaussianBlur(gray,(7,7),0)
@@ -32,9 +32,6 @@ def testing():
     cnts = cv2.findContours(edged.copy(),cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)
     cnts = cnts[0] if imutils.is_cv2() else cnts[1]
     for c in cnts:
-
-
-
         if cv2.contourArea(c) < 2000:
             continue
         box = cv2.minAreaRect(c)
@@ -63,19 +60,16 @@ while True:
     # Showing the frame
     ret, frame = camera.read()
     cv2.imshow("Frame",frame)
-
-    testing()
-
-
     # Working switch case to close
     key = cv2.waitKey(2)
     if key == 27:
         break
     elif key == 13:
-
         contouredArea = frame
         # Sending the image to save
         captureImage(contouredArea)
+        # Cropping Image
+        cropImage()
 
 
 
