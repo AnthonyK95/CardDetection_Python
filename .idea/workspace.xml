@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="300b4a18-8050-49b6-9e7e-60b825b0f539" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TheCardProject/HopeFinal.py" beforeDir="false" afterPath="$PROJECT_DIR$/TheCardProject/HopeFinal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheCardProject/image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TheCardProject/image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheCardProject/kurwa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TheCardProject/kurwa.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TheCardProject/HopeFinal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+            <state relative-caret-position="196">
+              <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -261,12 +258,12 @@
       <workItem from="1559653537241" duration="7371000" />
       <workItem from="1559666582653" duration="9769000" />
       <workItem from="1559751750176" duration="9700000" />
-      <workItem from="1559763198095" duration="2877000" />
+      <workItem from="1559763198095" duration="3402000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62242000" />
+    <option name="totallyTimeSpent" value="62767000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -281,12 +278,12 @@
     <frame x="137" y="5" width="1614" height="1024" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16151866" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16151866" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32887402" />
-      <window_info anchor="bottom" x="165" y="-948" width="1554" height="772" id="Run" order="2" type="FLOATING" visible="true" weight="0.22073579" />
+      <window_info anchor="bottom" x="165" y="-948" width="1554" height="772" id="Run" order="2" type="FLOATING" weight="0.22073579" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -443,16 +440,16 @@
     <entry file="file://$PROJECT_DIR$/TheCardProject/kurwa2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/TheCardProject/image.jpg">
+    <entry file="file://$PROJECT_DIR$/TheCardProject/kurwa.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/TheCardProject/kurwa.jpg">
+    <entry file="file://$PROJECT_DIR$/TheCardProject/image.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/TheCardProject/HopeFinal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+        <state relative-caret-position="196">
+          <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>

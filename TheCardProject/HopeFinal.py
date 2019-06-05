@@ -17,7 +17,7 @@ def captureImage(captured_frame):
 
 
 
-
+# Cropping image frame
 def cropImage():
     image = cv2.imread("image.jpg")
     gray = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
@@ -50,6 +50,9 @@ def cropImage():
 
 
 
+# Comparing Images
+def compareImages():
+    print("compare")
 
 
 
