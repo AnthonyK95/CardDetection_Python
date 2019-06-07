@@ -1,13 +1,12 @@
 from imutils import perspective
 from imutils import contours
+import glob
 import numpy as np
 import imutils
 import cv2
 
 # Defined Variables
 camera = cv2.VideoCapture(0)
-
-
 
 
 # Capture image frame and Save it
@@ -23,7 +22,7 @@ def cropImage():
     gray = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
     gray = cv2.GaussianBlur(gray,(7,7),0)
 
-    # Perform the image
+    # Perform the image filtering
     edged = cv2.Canny(gray,50,100)
     edged = cv2.dilate(edged,None,iterations=1)
     edged = cv2.erode(edged,None,iterations=1)
@@ -52,7 +51,49 @@ def cropImage():
 
 # Comparing Images
 def compareImages():
-    print("compare")
+    titles = []
+    template = []
+    goodPoints = []
+    biggest = 0
+    biggestTitle = ''
+
+    sift = cv2.xfeatures2d.SIFT_create()
+    index_params = dict(algorithm=0, trees=5)
+    search_params = dict()
+    flann = cv2.FlannBasedMatcher(index_params, search_params)
+
+    # Adding filters to the saved image
+    saved = cv2.imread("kurwa.jpg")
+    grayS = cv2.cvtColor(saved,cv2.COLOR_BGR2GRAY)
+    grayS = cv2.GaussianBlur(saved,(7,7),0)
+    Onek ,OneD = sift.detectAndCompute(grayS, None)
+
+
+    for f in glob.iglob("images\*"):
+        image = cv2.imread(f)
+        titles.append(f)
+        template.append(image)
+    for template, title in zip(template, titles):
+
+        convertedTemplate = cv2.cvtColor(template,cv2.COLOR_BGR2GRAY)
+        convertedTemplate = cv2.GaussianBlur(template,(7,7),0)
+        twoK, twoD = sift.detectAndCompute(convertedTemplate, None)
+
+        matches = flann.knnMatch(OneD, twoD, k=2)
+        good_points = []
+        for m, n in matches:
+            if m.distance <= 0.5 * m.distance:
+                good_points.append(m)
+        number_keypoints = 0
+        if len(Onek) <= len(twoK):
+            number_keypoints = len(Onek)
+            cv2.imshow("Result", cv2.imread(title))
+        else:
+            number_keypoints = len(twoK)
+            cv2.imshow("Dont know", cv2.imread(title))
+
+
+
 
 
 
@@ -73,6 +114,7 @@ while True:
         captureImage(contouredArea)
         # Cropping Image
         cropImage()
+        compareImages()
 
 
 
