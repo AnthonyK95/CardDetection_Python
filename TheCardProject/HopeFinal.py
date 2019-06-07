@@ -10,14 +10,14 @@ camera = cv2.VideoCapture(0)
 
 
 
-# Capture image frame
+# Capture image frame and Save it
 def captureImage(captured_frame):
     cv2.imwrite("image.jpg",captured_frame)
     print("Writing image to file")
 
 
 
-# Cropping image frame
+# Cropping image frame and save it
 def cropImage():
     image = cv2.imread("image.jpg")
     gray = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
