@@ -62,8 +62,8 @@ def compareImages():
     # Adding filters to the saved image
     saved = cv2.imread("kurwa.jpg")
     grayS = cv2.cvtColor(saved,cv2.COLOR_BGR2GRAY)
-    grayS = cv2.GaussianBlur(saved,(7,7),0)
-    Onek ,OneD = sift.detectAndCompute(grayS, None)
+    graySS = cv2.GaussianBlur(grayS,(7,7),0)
+    Onek ,OneD = sift.detectAndCompute(graySS, None)
 
 
     for f in glob.iglob("images\*"):

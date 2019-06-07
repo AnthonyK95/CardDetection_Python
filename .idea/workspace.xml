@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="300b4a18-8050-49b6-9e7e-60b825b0f539" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/TheCardProject/HopeFinal.py" beforeDir="false" afterPath="$PROJECT_DIR$/TheCardProject/HopeFinal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TheCardProject/image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/kurwa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TheCardProject/kurwa.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TheCardProject/HopeFinal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+            <state relative-caret-position="400">
+              <caret line="71" column="30" lean-forward="true" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -32,6 +34,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>grayS</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -248,12 +255,12 @@
       <workItem from="1559763198095" duration="3435000" />
       <workItem from="1559830610532" duration="3648000" />
       <workItem from="1559917324381" duration="4449000" />
-      <workItem from="1559928637048" duration="3315000" />
+      <workItem from="1559928637048" duration="3504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74212000" />
+    <option name="totallyTimeSpent" value="74401000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -268,12 +275,12 @@
     <frame x="153" y="10" width="1614" height="1024" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16731016" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16731016" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32887402" />
-      <window_info anchor="bottom" x="160" y="-1015" width="1605" height="772" id="Run" order="2" type="FLOATING" visible="true" weight="0.22073579" />
+      <window_info active="true" anchor="bottom" x="160" y="-1015" width="1605" height="772" id="Run" order="2" type="FLOATING" visible="true" weight="0.22073579" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -295,7 +302,7 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Image_Processing_Final$HopeFinal.coverage" NAME="HopeFinal Coverage Results" MODIFIED="1559933256350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheCardProject" />
+    <SUITE FILE_PATH="coverage/Image_Processing_Final$HopeFinal.coverage" NAME="HopeFinal Coverage Results" MODIFIED="1559933745824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheCardProject" />
     <SUITE FILE_PATH="coverage/Image_Processing_Final$newMethod.coverage" NAME="newMethod Coverage Results" MODIFIED="1559586497331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheCardProject" />
     <SUITE FILE_PATH="coverage/Image_Processing_Final$QtImplementation.coverage" NAME="QtImplementation Coverage Results" MODIFIED="1559503833060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheCardProject" />
     <SUITE FILE_PATH="coverage/Image_Processing_Final$test.coverage" NAME="test Coverage Results" MODIFIED="1559512236519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheCardProject" />
@@ -441,8 +448,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TheCardProject/HopeFinal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+        <state relative-caret-position="400">
+          <caret line="71" column="30" lean-forward="true" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
