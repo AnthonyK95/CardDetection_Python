@@ -53,9 +53,6 @@ def cropImage():
 def compareImages():
     titles = []
     template = []
-    goodPoints = []
-    biggest = 0
-    biggestTitle = ''
 
     sift = cv2.xfeatures2d.SIFT_create()
     index_params = dict(algorithm=0, trees=5)
