@@ -4,7 +4,7 @@ import glob
 import numpy as np
 import imutils
 import cv2
-
+from matplotlib import pyplot as plt
 # Defined Variables
 camera = cv2.VideoCapture(0)
 
@@ -55,9 +55,17 @@ def compareImages():
     template = []
 
     sift = cv2.xfeatures2d.SIFT_create()
-    index_params = dict(algorithm=0, trees=5)
-    search_params = dict()
+    # index_params = dict(algorithm=0, trees=5)
+    # search_params = dict()
+
+
+    FLANN_INDEX_KDTREE = 1
+    index_params = dict(algorithm=FLANN_INDEX_KDTREE, trees=5)
+    search_params = dict(checks=50)
     flann = cv2.FlannBasedMatcher(index_params, search_params)
+
+
+
 
     # Adding filters to the saved image
     saved = cv2.imread("kurwa.jpg")
@@ -77,26 +85,18 @@ def compareImages():
         twoK, twoD = sift.detectAndCompute(convertedTemplate, None)
 
         matches = flann.knnMatch(OneD, twoD, k=2)
-        good_points = []
-        for m, n in matches:
-            if m.distance < 0.75*n.distance:
-                good_points.append(m)
-        number_keypoints = 0
-        if len(Onek) > len(twoK):
-            number_keypoints = len(Onek)
-            cv2.imshow("Result", cv2.imread(title))
-        else:
-            number_keypoints = len(twoK)
-
-
-
-
+        matchesMask = [[0, 0] for i in range(len(matches))]
+        for i, (m, n) in enumerate(matches):
+            if m.distance < 0.7 * n.distance:
+                matchesMask[i] = [1, 0]
+        draw_params = dict(matchColor=(0, 255, 0),singlePointColor=(255, 0, 0),matchesMask=matchesMask,flags=0)
+        img3 = cv2.drawMatchesKnn(graySS, Onek, convertedTemplate, twoK, matches, None, **draw_params)
+        plt.imshow(img3, ), plt.show()
 
 
 
 
 while True:
-
 
     # Showing the frame
     ret, frame = camera.read()

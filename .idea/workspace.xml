@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="300b4a18-8050-49b6-9e7e-60b825b0f539" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TheCardProject/HopeFinalV2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TheCardProject/HopeFinal.py" beforeDir="false" afterPath="$PROJECT_DIR$/TheCardProject/HopeFinal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TheCardProject/image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TheCardProject/image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Ace.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TheCardProject/images/Ace.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Clubs.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Diamonds.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Eight.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TheCardProject/images/Eight.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Five.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Four.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Hearts.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Jack.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheCardProject/images/King.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Nine.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Queen.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Seven.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Six.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TheCardProject/images/Six.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Spades.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Ten.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Three.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Two.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheCardProject/images/black.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheCardProject/images/blue.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheCardProject/images/kurwa.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TheCardProject/kurwa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TheCardProject/kurwa.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TheCardProject/HopeFinal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="378">
+              <caret line="99" selection-start-line="99" selection-end-line="99" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -49,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TheCardProject/HopeFinalV2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+            <state relative-caret-position="624">
+              <caret line="96" lean-forward="true" selection-end-line="128" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -90,8 +67,8 @@
         <option value="$PROJECT_DIR$/TheCardProject/bythebook.py" />
         <option value="$PROJECT_DIR$/TheCardProject/antonella.py" />
         <option value="$PROJECT_DIR$/TheCardProject/tasos.py" />
-        <option value="$PROJECT_DIR$/TheCardProject/HopeFinal.py" />
         <option value="$PROJECT_DIR$/TheCardProject/HopeFinalV2.py" />
+        <option value="$PROJECT_DIR$/TheCardProject/HopeFinal.py" />
       </list>
     </option>
   </component>
@@ -326,12 +303,12 @@
       <workItem from="1560299326677" duration="1853000" />
       <workItem from="1560358281786" duration="7255000" />
       <workItem from="1560436174894" duration="3786000" />
-      <workItem from="1560440935432" duration="4207000" />
+      <workItem from="1560440935432" duration="4323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92420000" />
+    <option name="totallyTimeSpent" value="92536000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -360,7 +337,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.30653805" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.30653805" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -407,7 +384,7 @@
     <SUITE FILE_PATH="coverage/Image_Processing_Final$antonis.coverage" NAME="antonis Coverage Results" MODIFIED="1559513521029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheCardProject" />
     <SUITE FILE_PATH="coverage/Image_Processing_Final$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1559512890701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheCardProject" />
     <SUITE FILE_PATH="coverage/Image_Processing_Final$tasos.coverage" NAME="tasos Coverage Results" MODIFIED="1559674150145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheCardProject" />
-    <SUITE FILE_PATH="coverage/Image_Processing_Final$HopeFinalV2.coverage" NAME="HopeFinalV2 Coverage Results" MODIFIED="1560448338830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheCardProject" />
+    <SUITE FILE_PATH="coverage/Image_Processing_Final$HopeFinalV2.coverage" NAME="HopeFinalV2 Coverage Results" MODIFIED="1560448457341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheCardProject" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TheCardProject/images/me.jpg" />
@@ -544,23 +521,23 @@
     <entry file="file://$PROJECT_DIR$/TheCardProject/images/ace.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/TheCardProject/HopeFinal.py">
+    <entry file="file://$PROJECT_DIR$/TheCardProject/images/six.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheCardProject/HopeFinalV2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="624">
+          <caret line="96" lean-forward="true" selection-end-line="128" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TheCardProject/images/six.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TheCardProject/HopeFinalV2.py">
+    <entry file="file://$PROJECT_DIR$/TheCardProject/HopeFinal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        <state relative-caret-position="378">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
