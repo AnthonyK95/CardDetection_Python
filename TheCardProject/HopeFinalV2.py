@@ -55,17 +55,11 @@ def compareImages():
     template = []
 
     sift = cv2.xfeatures2d.SIFT_create()
-    # index_params = dict(algorithm=0, trees=5)
-    # search_params = dict()
-
 
     FLANN_INDEX_KDTREE = 1
     index_params = dict(algorithm=FLANN_INDEX_KDTREE, trees=5)
     search_params = dict(checks=50)
     flann = cv2.FlannBasedMatcher(index_params, search_params)
-
-
-
 
     # Adding filters to the saved image
     saved = cv2.imread("kurwa.jpg")
@@ -89,9 +83,11 @@ def compareImages():
         for i, (m, n) in enumerate(matches):
             if m.distance < 0.7 * n.distance:
                 matchesMask[i] = [1, 0]
+                print(title)
         draw_params = dict(matchColor=(0, 255, 0),singlePointColor=(255, 0, 0),matchesMask=matchesMask,flags=0)
         img3 = cv2.drawMatchesKnn(graySS, Onek, convertedTemplate, twoK, matches, None, **draw_params)
         plt.imshow(img3, ), plt.show()
+        # cv2.imshow("Result",cv2.imread(theimage))
 
 
 
