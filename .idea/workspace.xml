@@ -2,8 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="300b4a18-8050-49b6-9e7e-60b825b0f539" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TheCardProject/HopeFinalV2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TheCardProject/HopeFinal.py" beforeDir="false" afterPath="$PROJECT_DIR$/TheCardProject/HopeFinal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TheCardProject/image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TheCardProject/image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Ace.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TheCardProject/images/Ace.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Clubs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Diamonds.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Eight.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TheCardProject/images/Eight.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Five.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Four.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Hearts.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Jack.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/images/King.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Nine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Queen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Seven.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Six.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TheCardProject/images/Six.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Spades.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Ten.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Three.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/images/Two.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/images/black.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/images/blue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/images/kurwa.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TheCardProject/kurwa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TheCardProject/kurwa.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +37,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TheCardProject/HopeFinal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="71" column="30" lean-forward="true" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
+            <state relative-caret-position="123">
+              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TheCardProject/HopeFinalV2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -56,14 +91,15 @@
         <option value="$PROJECT_DIR$/TheCardProject/antonella.py" />
         <option value="$PROJECT_DIR$/TheCardProject/tasos.py" />
         <option value="$PROJECT_DIR$/TheCardProject/HopeFinal.py" />
+        <option value="$PROJECT_DIR$/TheCardProject/HopeFinalV2.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="153" />
-    <option name="y" value="10" />
-    <option name="width" value="1614" />
-    <option name="height" value="1024" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="352" />
+    <option name="y" value="21" />
+    <option name="width" value="1257" />
+    <option name="height" value="1020" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -86,6 +122,12 @@
               <item name="Image_Processing_Final" type="462c0819:PsiDirectoryNode" />
               <item name="TheCardProject" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Image_Processing_Final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Image_Processing_Final" type="462c0819:PsiDirectoryNode" />
+              <item name="TheCardProject" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -100,7 +142,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -114,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.HopeFinal">
+  <component name="RunManager" selected="Python.HopeFinalV2">
     <configuration name="HopeFinal" type="PythonConfigurationType" factoryName="Python">
       <module name="Image_Processing_Final" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,6 +171,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TheCardProject/HopeFinal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HopeFinalV2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Image_Processing_Final" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TheCardProject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TheCardProject/HopeFinalV2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -227,6 +291,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.HopeFinalV2" />
         <item itemvalue="Python.tasos" />
         <item itemvalue="Python.antonella" />
         <item itemvalue="Python.bythebook" />
@@ -255,12 +320,18 @@
       <workItem from="1559763198095" duration="3435000" />
       <workItem from="1559830610532" duration="3648000" />
       <workItem from="1559917324381" duration="4449000" />
-      <workItem from="1559928637048" duration="3504000" />
+      <workItem from="1559928637048" duration="3571000" />
+      <workItem from="1560136023933" duration="22000" />
+      <workItem from="1560298407114" duration="829000" />
+      <workItem from="1560299326677" duration="1853000" />
+      <workItem from="1560358281786" duration="7255000" />
+      <workItem from="1560436174894" duration="3786000" />
+      <workItem from="1560440935432" duration="4207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74401000" />
+    <option name="totallyTimeSpent" value="92420000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -272,15 +343,38 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="153" y="10" width="1614" height="1024" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16731016" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15831557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32887402" />
-      <window_info active="true" anchor="bottom" x="160" y="-1015" width="1605" height="772" id="Run" order="2" type="FLOATING" visible="true" weight="0.22073579" />
+      <window_info anchor="bottom" x="160" y="-1015" width="1605" height="772" id="Run" order="2" weight="0.227224" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.16763006" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.30653805" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" x="233" y="-979" width="1478" height="743" id="SciView" order="3" weight="0.57675904" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22723475" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32887402" />
+      <window_info anchor="bottom" x="160" y="-1015" width="1605" height="772" id="Run" order="2" visible="true" weight="0.14269789" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -296,13 +390,13 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" x="233" y="-979" width="1478" height="743" id="SciView" order="3" weight="0.17803837" />
       <window_info anchor="right" id="Database" order="4" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Image_Processing_Final$HopeFinal.coverage" NAME="HopeFinal Coverage Results" MODIFIED="1559933745824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheCardProject" />
+    <SUITE FILE_PATH="coverage/Image_Processing_Final$HopeFinal.coverage" NAME="HopeFinal Coverage Results" MODIFIED="1560441939825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheCardProject" />
     <SUITE FILE_PATH="coverage/Image_Processing_Final$newMethod.coverage" NAME="newMethod Coverage Results" MODIFIED="1559586497331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheCardProject" />
     <SUITE FILE_PATH="coverage/Image_Processing_Final$QtImplementation.coverage" NAME="QtImplementation Coverage Results" MODIFIED="1559503833060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheCardProject" />
     <SUITE FILE_PATH="coverage/Image_Processing_Final$test.coverage" NAME="test Coverage Results" MODIFIED="1559512236519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheCardProject" />
@@ -313,25 +407,14 @@
     <SUITE FILE_PATH="coverage/Image_Processing_Final$antonis.coverage" NAME="antonis Coverage Results" MODIFIED="1559513521029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheCardProject" />
     <SUITE FILE_PATH="coverage/Image_Processing_Final$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1559512890701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheCardProject" />
     <SUITE FILE_PATH="coverage/Image_Processing_Final$tasos.coverage" NAME="tasos Coverage Results" MODIFIED="1559674150145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheCardProject" />
+    <SUITE FILE_PATH="coverage/Image_Processing_Final$HopeFinalV2.coverage" NAME="HopeFinalV2 Coverage Results" MODIFIED="1560448338830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheCardProject" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TheCardProject/images/me.jpg" />
     <entry file="file://$PROJECT_DIR$/TheCardProject/images/brain.png" />
     <entry file="file://$PROJECT_DIR$/TheCardProject/images/two.png" />
     <entry file="file://$PROJECT_DIR$/TheCardProject/images/Four.jpg" />
-    <entry file="file://$PROJECT_DIR$/TheCardProject/QtImplementation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="21" column="69" lean-forward="true" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TheCardProject/images/Five.jpg" />
-    <entry file="file://$PROJECT_DIR$/TheCardProject/images/Six.jpg" />
-    <entry file="file://$PROJECT_DIR$/TheCardProject/images/Ace.jpg" />
     <entry file="file://$PROJECT_DIR$/TheCardProject/test3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -353,36 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TheCardProject/newMethod.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TheCardProject/refactoring.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TheCardProject/bythebook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1426">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TheCardProject/frame1.jpg" />
     <entry file="file://$PROJECT_DIR$/TheCardProject/inputimage.jpg" />
     <entry file="file://$PROJECT_DIR$/TheCardProject/images/face4.jpg" />
@@ -400,26 +453,6 @@
     <entry file="file://$PROJECT_DIR$/TheCardProject/images/6.jpg" />
     <entry file="file://$PROJECT_DIR$/TheCardProject/images/4.jpg" />
     <entry file="file://$PROJECT_DIR$/TheCardProject/inputimage127.jpg" />
-    <entry file="file://$PROJECT_DIR$/TheCardProject/antonis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-          <folding>
-            <element signature="e#25#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TheCardProject/antonella.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TheCardProject/image%d.jpg" />
     <entry file="file://$PROJECT_DIR$/TheCardProject/inputimage1.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -433,28 +466,121 @@
     <entry file="file://$PROJECT_DIR$/TheCardProject/kurwa.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/TheCardProject/images/blue.jpg" />
+    <entry file="file://$PROJECT_DIR$/TheCardProject/images/black.jpg" />
+    <entry file="file://$PROJECT_DIR$/TheCardProject/newMethod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheCardProject/QtImplementation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="21" column="69" lean-forward="true" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheCardProject/refactoring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="48" column="8" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TheCardProject/tasos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
+        <state relative-caret-position="104">
           <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TheCardProject/images/blue.jpg">
+    <entry file="file://$PROJECT_DIR$/TheCardProject/antonella.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheCardProject/antonis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+          <folding>
+            <element signature="e#25#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheCardProject/bythebook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1686">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheCardProject/images/yo.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/TheCardProject/images/black.jpg">
+    <entry file="file://$PROJECT_DIR$/TheCardProject/images/eight.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheCardProject/images/ace.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/TheCardProject/HopeFinal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="71" column="30" lean-forward="true" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
+        <state relative-caret-position="123">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TheCardProject/images/six.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheCardProject/HopeFinalV2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
