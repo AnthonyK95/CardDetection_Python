@@ -44,7 +44,7 @@ def cropImage():
             cv2.imshow("Image", cv2.resize(orig,(800,600)))
             x, y, w, h = cv2.boundingRect(c)
             roi = image[y:y + h, x:x + w]
-            cv2.imwrite("kurwa.jpg", roi, (800, 600))
+            cv2.imwrite("crop.jpg", roi, (800, 600))
 
 
 
@@ -68,7 +68,7 @@ def compareImages():
 
 
     # Adding filters to the saved image
-    saved = cv2.imread("kurwa.jpg")
+    saved = cv2.imread("crop.jpg")
     grayS = cv2.cvtColor(saved,cv2.COLOR_BGR2GRAY)
     graySS = cv2.GaussianBlur(grayS,(7,7),0)
     Onek ,OneD = sift.detectAndCompute(graySS, None)
