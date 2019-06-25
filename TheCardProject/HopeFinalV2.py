@@ -6,7 +6,7 @@ import imutils
 import cv2
 from matplotlib import pyplot as plt
 # Defined Variables
-camera = cv2.VideoCapture(0)
+camera = cv2.VideoCapture(1)
 
 
 # Capture image frame and Save it
@@ -44,7 +44,7 @@ def cropImage():
             cv2.imshow("Image", cv2.resize(orig,(800,600)))
             x, y, w, h = cv2.boundingRect(c)
             roi = image[y:y + h, x:x + w]
-            cv2.imwrite("kurwa.jpg", roi, (800, 600))
+            cv2.imwrite("saveCrop.jpg", roi, (800, 600))
 
 
 

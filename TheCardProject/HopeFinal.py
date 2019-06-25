@@ -55,9 +55,6 @@ def compareImages():
     template = []
 
     sift = cv2.xfeatures2d.SIFT_create()
-    # index_params = dict(algorithm=0, trees=5)
-    # search_params = dict()
-
 
     FLANN_INDEX_KDTREE = 1
     index_params = dict(algorithm=FLANN_INDEX_KDTREE, trees=5)

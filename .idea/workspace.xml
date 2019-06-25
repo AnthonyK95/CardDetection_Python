@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="300b4a18-8050-49b6-9e7e-60b825b0f539" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/HopeFinal.py" beforeDir="false" afterPath="$PROJECT_DIR$/TheCardProject/HopeFinal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/HopeFinalV2.py" beforeDir="false" afterPath="$PROJECT_DIR$/TheCardProject/HopeFinalV2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TheCardProject/image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCardProject/kurwa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TheCardProject/kurwa.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,12 +15,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="231">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TheCardProject/HopeFinal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2132">
-              <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
+            <state relative-caret-position="1343">
+              <caret line="85" column="44" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -27,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TheCardProject/HopeFinalV2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="642">
-              <caret line="90" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="578">
+              <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -84,7 +88,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,6 +110,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,11 +308,17 @@
       <workItem from="1560440935432" duration="5874000" />
       <workItem from="1560473394664" duration="6000" />
       <workItem from="1560473563138" duration="12000" />
+      <workItem from="1560790517856" duration="119000" />
+      <workItem from="1560790774228" duration="56000" />
+      <workItem from="1561054303995" duration="29000" />
+      <workItem from="1561461065824" duration="343000" />
+      <workItem from="1561464002193" duration="697000" />
+      <workItem from="1561507033611" duration="51000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94105000" />
+    <option name="totallyTimeSpent" value="95400000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -323,12 +333,12 @@
     <frame x="335" y="21" width="1257" height="1020" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16290727" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19131161" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32887402" />
-      <window_info anchor="bottom" x="160" y="-1015" width="1605" height="772" id="Run" order="2" weight="0.227224" />
+      <window_info anchor="bottom" x="160" y="-1015" width="1605" height="772" id="Run" order="2" weight="0.2165059" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -342,7 +352,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="233" y="-979" width="1478" height="743" id="SciView" order="3" weight="0.15991472" />
+      <window_info active="true" anchor="right" x="233" y="-979" width="1478" height="743" id="SciView" order="3" visible="true" weight="0.07351713" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
@@ -384,7 +394,7 @@
     <SUITE FILE_PATH="coverage/Image_Processing_Final$antonis.coverage" NAME="antonis Coverage Results" MODIFIED="1559513521029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheCardProject" />
     <SUITE FILE_PATH="coverage/Image_Processing_Final$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1559512890701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheCardProject" />
     <SUITE FILE_PATH="coverage/Image_Processing_Final$tasos.coverage" NAME="tasos Coverage Results" MODIFIED="1559674150145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheCardProject" />
-    <SUITE FILE_PATH="coverage/Image_Processing_Final$HopeFinalV2.coverage" NAME="HopeFinalV2 Coverage Results" MODIFIED="1560449590468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheCardProject" />
+    <SUITE FILE_PATH="coverage/Image_Processing_Final$HopeFinalV2.coverage" NAME="HopeFinalV2 Coverage Results" MODIFIED="1561464229898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheCardProject" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TheCardProject/images/me.jpg" />
@@ -526,8 +536,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TheCardProject/HopeFinal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2132">
-          <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
+        <state relative-caret-position="1343">
+          <caret line="85" column="44" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -536,8 +546,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TheCardProject/HopeFinalV2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="578">
+          <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
