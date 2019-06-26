@@ -6,7 +6,7 @@ import imutils
 import cv2
 from matplotlib import pyplot as plt
 # Defined Variables
-camera = cv2.VideoCapture(1)
+camera = cv2.VideoCapture(0)
 
 
 # Capture image frame and Save it
