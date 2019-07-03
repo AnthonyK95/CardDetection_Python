@@ -1,6 +1,6 @@
 # Playing Card Recognition
 
-This project was created with python,opencv and numpy librarys.
+This project was created with python,opencv and numpy libraries.
 
 Abstract: This project hsa been built in order to pass the image processing class at the University of Kavala Greece and learn
 how we can process one image using nowdays technology. Basically the program will capture a frame crop it, gray scale it and find
